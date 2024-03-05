@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <h1>Afonso Correia</h1>
+
+    <p>I hope to learn from this course all the integral parts of programming. Simple as that. I want to Open Visual Studio and be confortable to just program anything I'm required to.</p>
+
+    <ul>List
+        <li>Bootstrap</li>
+        <li>HTML</li>
+        <li>Javascript</li>
+    </ul>
+
+    <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWdufGVufDB8fDB8fHww" alt="">
+
+<script>
+    let numero1 = 5
+    let numero2 = 4
+
+    console.log(numero1 + numero2)
+    console.log(numero1 - numero2)
+    console.log(`The product of ${numero1} and ${numero2} is ${numero1 * numero2}`)
+
+    let firstName = "Afonso";
+    let lastName = "Correia";
+    let fullName = firstName + " " + lastName;
+
+    console.log(`Full Name: ${fullName}`);
+
+    let favoriteColor = prompt("What's your favorite color?")
+    if (favoriteColor) {
+        alert(`Your favorite color is ${favoriteColor}`)
+}
+    let num1 = prompt("Write a number")
+    let num2 = prompt("Do it again")
+    
+    if (num1 > num2) {
+        alert("First Number is greater.")
+    }
+    else if (num1 < num2) {
+        alert("Second Number is greater.")
+    }
+    else if (num1 = num2) {
+        alert("Both Numbers are equal.")
+    }
+    
+</script>
+</body>
+</html>
